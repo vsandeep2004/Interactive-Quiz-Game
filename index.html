@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Quiz Game</h1>
+            <div class="info">
+                <span id="timer">Time: 60</span>
+                <span id="score">Score: 0</span>
+            </div>
+        </header>
+        
+        <main>
+            <div id="quiz-area">
+                <h2 id="question">Question text</h2>
+                <div class="choices">
+                    <button class="choice-btn" data-choice="1">Choice 1</button>
+                    <button class="choice-btn" data-choice="2">Choice 2</button>
+                    <button class="choice-btn" data-choice="3">Choice 3</button>
+                    <button class="choice-btn" data-choice="4">Choice 4</button>
+                </div>
+            </div>
+
+            <div id="result"></div>
+        </main>
+
+        <footer>
+            <button id="start-btn">Start Quiz</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
